@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: stoenpav-flutterint/hello-world-docker-action@v1
+        uses: stoenpav-flutterint/github-actions-mine@v1
         with:
           who-to-greet: '@octocat'
